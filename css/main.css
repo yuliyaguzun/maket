@@ -130,6 +130,12 @@ p {
     margin-left: auto;
 }
 
+.mail .container,
+.footer .container {
+    display: flex;
+    justify-content: center;
+}
+
 .form {
     text-align: center;
 }
@@ -161,8 +167,10 @@ footer {
 .credits {
     font-size: 14px;
     color: #E8ECF1;
+    display: flex;
+    align-items: center;
 }
 
-.icon {
-    color: #E8ECF1;
+.credits img {
+    margin-right: 5px;
 }
